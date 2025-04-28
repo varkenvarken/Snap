@@ -54,3 +54,7 @@ The icons in the `code/snapper/icons` directory are distributed under the CC-BY-
 ## Acknowledgments
 
 The icons used in this project are based on Blender icons and were separated into individual files by Henry Wilkinson. See [LICENSE.txt](code/snapper/icons/LICENSE.txt) for more information.
+
+The [modular asset pack](sample%20assets/asset-pack-with-snap-points.blend) that is used in the examples is not my work but comes from https://polyhaven.com/
+
+https://polyhaven.com/a/modular_industrial_pipes_01 (CC0 by Jorge Camacho)
