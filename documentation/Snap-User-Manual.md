@@ -1,10 +1,10 @@
-# **Snap\!**
+# **Snap!**
 
 ## ***Connecting modular assets in a snap***
 
 ![](images/image1.png)
 
-Snap\! Is an add-on that lets you define snap-points on objects and provides an easy-to-use, interactive way of snapping objects together.
+Snap! Is an add-on that lets you define snap-points on objects and provides an easy-to-use, interactive way of snapping objects together.
 
 Snapping an object to another object will position it at the chosen snap-point and align the object in such a way that the object's orientation matches that of the snap-point on the other object.
 
@@ -12,7 +12,7 @@ This makes it possible to add sensible snap-points to objects in a modular asset
 
 [This playlist](https://youtube.com/playlist?list=PLxyAbGpHucHZpoPBYVe8u2xWwIHP8p3yu) shows examples of what is possible:
 
-[Using Snap\!](https://youtu.be/3yMTV_DyMTg) Is a short introduction on working with objects that have snap-points configured.
+[Using Snap!](https://youtu.be/3yMTV_DyMTg) Is a short introduction on working with objects that have snap-points configured.
 
 [Creating snap-points](https://youtu.be/0y-4aiBhqT0) show how to configure snap-points on a collection of objects.
 
@@ -30,13 +30,13 @@ This makes it possible to add sensible snap-points to objects in a modular asset
 
 [Installation](#installation)
 
-[Installing an updated version of Snap\!](#installing-an-updated-version-of-snap!)
+[Installing an updated version of Snap!](#installing-an-updated-version-of-snap!)
 
 [Workflow](#workflow)
 
 [Options reference](#options-reference)
 
-[Snap\! Panel](#snap!-panel)
+[Snap! Panel](#snap!-panel)
 
 [Visible](#visible)
 
@@ -64,7 +64,7 @@ This makes it possible to add sensible snap-points to objects in a modular asset
 
 [Point definitions panels](#point-definitions-panels)
 
-[Enable / Disable Snap\!](#enable-/-disable-snap!)
+[Enable / Disable Snap!](#enable-/-disable-snap!)
 
 [Disable / Enable](#disable-/-enable)
 
@@ -144,13 +144,13 @@ This makes it possible to add sensible snap-points to objects in a modular asset
 
 # License
 
-**The Snap\!** user manual © 2025 by [Michel Anders](https://github.com/varkenvarken) is licensed under CC BY-NC-SA 4.0
+**The Snap!** user manual © 2025 by [Michel Anders](https://github.com/varkenvarken) is licensed under CC BY-NC-SA 4.0
 
-**The Snap\!** source code © 2025 by [Michel Anders](https://github.com/varkenvarken) is licensed under GPL:
+**The Snap!** source code © 2025 by [Michel Anders](https://github.com/varkenvarken) is licensed under GPL:
 
-**Snap\!**, position modular assets with ease.
+**Snap!**, position modular assets with ease.
 
-(c) 2021 \- 2025 Michel Anders (varkenvarken)
+(c) 2021 - 2025 Michel Anders (varkenvarken)
 
 This program is free software; you can redistribute it and/or  
 modify it under the terms of the GNU General Public License  
@@ -168,25 +168,23 @@ Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
 
 # Installation
 
-Installing Snap\! for the first time is simple:
+Installing Snap! for the first time is simple:
 
-* Unpack the .zip file   
-  you probably already have done that as it contains this document (**Snap-User-Manual.pdf**) and the add-on itself (an archive with Python files, **snapper.zip**)
-
+* Download snapper.zip from the releases section of the repository
 * Select Edit → Preferences → Add-ons from the menu  
-* Click ‘Install …’ (near the top of the screen) and select the **snapper.zip** file  
-* Click ‘Install Add-on’ (near the bottom right of the screen)  
+* Click ‘↓’ (the down-arrow near the top right of the panel) and select the **install from disk ...**  
+* Locate `snapper.zip` and click `Install from disk`
 * Check the enable check box to the left of the add-on you just installed
 
-The add-on will now be available in the toolbar of 3d-view (press N in the 3d-view if the toolbar is not visible). The operators and properties of any defined snap-point will be available in the Snap\! Panels, although most of them will only show if snap-points are enabled on an object.
+The add-on will now be available in the toolbar of 3d-view (press N in the 3d-view if the toolbar is not visible). The operators and properties of any defined snap-point will be available in the Snap! Panels, although most of them will only show if snap-points are enabled on an object.
 
 ## Installing an updated version of Snap!
 
-If you want to replace a previous version of Snap\! you have to remove the old version first. to do this, go to Edit → Preferences … → Add-ons and either search for Snap\! or go to the ‘Object’ category where it will be located. Click on the add-on and then on the ‘Remove’ button. After removing the old version, follow the instructions above to install the new version.
+If you want to replace a previous version of Snap! you have to remove the old version first. to do this, go to Edit → Preferences … → Add-ons and either search for Snap! or go to the ‘Object’ category where it will be located. Click on the add-on and then on the ‘Remove’ button. After removing the old version, follow the instructions above to install the new version.
 
 # Workflow
 
-Snap\! is a tool to make positioning modular assets easier. There are two typical workflows: defining snap-points on objects and positioning objects using those snap-points.
+Snap! is a tool to make positioning modular assets easier. There are two typical workflows: defining snap-points on objects and positioning objects using those snap-points.
 
 *Defining snap-points* is typically done once. Once the snap-points are defined, the object collection can then be saved as usual and appended to any .blend file later. All the necessary tools to define snap-points on an object are grouped inside the Points and Extra points panels in the 3d-view. You can define any number of snap-points on an object, the first four in the Points panel and any extra ones in the Extra points panel.
 
@@ -200,21 +198,21 @@ The configuration options are explained in detail in the section [Point definiti
 
 When you make copies of an object the snap-point definitions are copied too, so a typical workflow will involve copying and then snapping an object to another object multiple times. 
 
-The tools to snap objects together are located in the Snap\! panel in the 3d-view and an example is shown in the image on the right. The layout of this panel is updated automatically to reflect the number of snap-points defined on an object.
+The tools to snap objects together are located in the Snap! panel in the 3d-view and an example is shown in the image on the right. The layout of this panel is updated automatically to reflect the number of snap-points defined on an object.
 
-The point definition options are explained in detail in the section [Snap\! Panel](#snap!-panel)
+The point definition options are explained in detail in the section [Snap! Panel](#snap!-panel)
 
 # Options reference
 
 Both workflows described earlier come with operators and options in their own panels.
 
-When you are working with a collection of assets that has been configured with snap-points you will use the Snap\! panel to snap, flip and rotate assets. This panel will be visible if the active object has snap-points defined.
+When you are working with a collection of assets that has been configured with snap-points you will use the Snap! panel to snap, flip and rotate assets. This panel will be visible if the active object has snap-points defined.
 
 The Point definitions panels are closed by default and can be used to add and configure snap-points on the active object.
 
 ## Snap! Panel
 
-The Snap\! panel will show the operations you can perform on the active object if this object is configured to have snap-points.
+The Snap! panel will show the operations you can perform on the active object if this object is configured to have snap-points.
 
 ![](images/image2.png)
 
@@ -312,7 +310,7 @@ The image shows the configuration options for the first snap-point.
 
 Clicking this button will enable (or disable) all snap-points for the active object.
 
-When you start adding snap functionality to a collection of modular assets, you first need to select each of those objects and Enable Snap\! You can also disable it again if you don't want the object to have snap functionality.
+When you start adding snap functionality to a collection of modular assets, you first need to select each of those objects and Enable Snap! You can also disable it again if you don't want the object to have snap functionality.
 
 Once enabled you can configure any number of snap-points. Snap-point A will be enabled by default and snap-points B, C and D will be present but disabled. No extra snap-points will be present by default, but can be added at will.
 
@@ -368,17 +366,17 @@ Clicking Cycle will select alternative configurations for the snap-point vectors
 
 ### Tags & Accept tags
 
-Each of those fields can contain a comma separated list of tags. If [match tags](#match-tags) is enabled in the Snap\! panel, this snap-point can only be snapped to another snap-point if one of its tags matches one of the accept tags in the target object. The converse is true also: this snap-point can only be snapped to, if the tag on the snap-point on the object matches one of the accept tags.
+Each of those fields can contain a comma separated list of tags. If [match tags](#match-tags) is enabled in the Snap! panel, this snap-point can only be snapped to another snap-point if one of its tags matches one of the accept tags in the target object. The converse is true also: this snap-point can only be snapped to, if the tag on the snap-point on the object matches one of the accept tags.
 
 ## Add-on preferences
 
 ![](images/image7.png) {#add-on-preferences}
 
-The look of several aspects of the Snap\! add-on can be controlled with the options in the preferences. This makes it possible to match the colors with your theme for example.
+The look of several aspects of the Snap! add-on can be controlled with the options in the preferences. This makes it possible to match the colors with your theme for example.
 
 ### Visible
 
-This option is available in the Snap\! panel in the 3d-view as well.
+This option is available in the Snap! panel in the 3d-view as well.
 
 When you are done positioning your modular assets or you want to focus on something else for a while, you can toggle the visibility of all snap-point labels to declutter your 3d view.
 
@@ -388,7 +386,7 @@ This will not remove any information from the objects; if you enable visibility 
 
 If enabled, a Ctrl-K shortcut will be added to the 3d-view that will start the interactive snap for the active object.
 
-This is off by default because not everybody likes adding all kinds of shortcuts. An alternative is adding the Snap operator to the quick menu by right-mouse clicking on the button in the Snap\! panel and selecting 'Add to Quick Favorite'. 
+This is off by default because not everybody likes adding all kinds of shortcuts. An alternative is adding the Snap operator to the quick menu by right-mouse clicking on the button in the Snap! panel and selecting 'Add to Quick Favorite'. 
 
 ### Label Size, Shadow & Offset
 
@@ -408,13 +406,13 @@ These color selectors let you control the appearance of the highlighted points w
 
 ### Auto flip
 
-This option is available in the Snap\! panel in the 3d-view as well.
+This option is available in the Snap! panel in the 3d-view as well.
 
 This will align the object you are snapping to another object with its direction vector opposite to the direction vector of the point you are snapping to. If snap-points on objects are consistently defined with their direction vectors pointing outward, this will greatly reduce the number of times you will need to flip an object after it has been snapped into position.
 
 ### Autoparent
 
-This option is available in the Snap\! panel in the 3d-view as well.
+This option is available in the Snap! panel in the 3d-view as well.
 
 This will automatically parent the snapped object to the target object.
 
@@ -426,7 +424,7 @@ Their relative positions and orientations will be kept the same.
 
 ### Match tags
 
-This option is available in the Snap\! panel in the 3d-view as well.
+This option is available in the Snap! panel in the 3d-view as well.
 
 With this option selected, objects can only be snapped to other objects when the tags defined on their snap-points match. 
 
