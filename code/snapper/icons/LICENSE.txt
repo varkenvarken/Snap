@@ -1,0 +1,9 @@
+The icons in this directory (*.svg and *.png) are based on the Blender
+icons and are distributed as CC-BY-SA 4.0
+(https://creativecommons.org/licenses/by-sa/4.0/)
+
+The Blender icons themselves are normally part of a single large SVG
+file, but we made use of the version provided at
+https://github.com/Shrinks99/blender-icons
+and we thank Henry Wilkinson for the hard work of separating all the
+icons into individual files that are much simpler to work with.
