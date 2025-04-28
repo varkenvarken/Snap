@@ -27,9 +27,13 @@ Snap! is a Blender add-on designed to simplify the process of positioning and sn
 - Define snap points on objects and use the snapping tools to align assets.
 - Customize snapping behavior and visualizations through the add-on preferences.
 
+## Documentation
+
+Extensive documentation is available [here](documentation/Snap-User-Manual.md)
+
 ## Demos
 
-[This playlist]() shows examples of what is possible:
+[This playlist](https://youtube.com/playlist?list=PLxyAbGpHucHZpoPBYVe8u2xWwIHP8p3yu) shows examples of what is possible:
 
 - [Using Snap!](https://youtube.com/playlist?list=PLxyAbGpHucHZpoPBYVe8u2xWwIHP8p3yu) Is a short introduction on working with objects that have snap-points configured.
 - [Creating snap-points](https://youtube.com/playlist?list=PLxyAbGpHucHZpoPBYVe8u2xWwIHP8p3yu) shows how to configure snap-points on a collection of objects.
