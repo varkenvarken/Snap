@@ -16,10 +16,11 @@ Snap! is a Blender add-on designed to simplify the process of positioning and sn
 
 ## Installation
 
-1. Download the repository as a ZIP file.
-2. Open Blender and navigate to `Edit > Preferences > Add-ons`.
-3. Click `Install...` and select the downloaded ZIP file.
-4. Enable the add-on by checking the box next to "Snapper".
+* Download snapper.zip from the releases section of the repository
+* Select Edit → Preferences → Add-ons from the menu  
+* Click ‘↓’ (the down-arrow near the top right of the panel) and select the **install from disk ...**  
+* Locate `snapper.zip` and click `Install from disk`
+* Check the enable check box to the left of the add-on you just installed
 
 ## Usage
 
